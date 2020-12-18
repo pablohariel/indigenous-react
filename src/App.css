@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;700;800;900&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.App {
+  font-family: 'Nunito', 'sans-serif';
+  --theme-color: #FBEEC1;
+  --theme-color-secondary: #8D734B;
+  --accent-color: #FF7104;
+  --shadow-short: 0 2px 4px rgba(0, 0, 0, 0.2);
+  --shadow-tall: 0 4px 8px rgba(0, 0, 0, 0.2);
+}

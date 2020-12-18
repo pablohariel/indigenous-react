@@ -1,0 +1,29 @@
+.footer-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 140px;
+  padding-bottom: 20px;
+  margin-top: 10px;
+}
+
+.footer-container img {
+  margin-bottom: 20px;
+  width: 50px;
+}
+
+.footer-container .footer-title {
+  color: var(--theme-color-secondary);
+  font-weight: bold;
+  font-size: 20px;
+}
+
+@media only screen and (max-width: 600px) {
+  .footer-container .footer-title {
+    padding-top: 10px;
+    padding-bottom: 0px;
+    height: 1vh;
+    font-size: 10px;
+  }
+}
